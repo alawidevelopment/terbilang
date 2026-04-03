@@ -1,3 +1,10 @@
+// index.js
+/**
+ * Convert number to words
+ * @param {number} number
+ * @param {string} [locale='en'] - 'en' or 'id-ID'
+ * @returns {string}
+ */
 function mainReader(number, locale = 'en-US') {
     if (locale === 'id-ID') return indonesia(number);
     return english(number);

@@ -1,0 +1,10 @@
+{
+  "name": "terbilang",
+  "version": "1.0.0",
+  "description": "Number to Words translator (terbilang)",
+  "main": "index.js",
+  "type": "module",
+  "keywords": ["number", "words", "terbilang", "indonesian", "english"],
+  "author": "alawidevelopment",
+  "license": "MIT"
+}

@@ -5,7 +5,7 @@
  * @param {string} [locale='en'] - 'en' or 'id-ID'
  * @returns {string}
  */
-function mainReader(number, locale = 'en-US') {
+function terbilang(number, locale = 'en-US') {
     if (locale === 'id-ID') return indonesia(number);
     return english(number);
 }
@@ -61,9 +61,9 @@ function english(number) {
 
 
 // ----- Export for ESM -----
-export default mainReader;
+export default terbilang;
 
 // ----- Fallback for CommonJS -----
 if (typeof module !== 'undefined' && module.exports) {
-  module.exports = mainReader;
+  module.exports = terbilang;
 }
